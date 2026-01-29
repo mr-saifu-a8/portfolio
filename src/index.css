@@ -1,0 +1,6 @@
+@font-face {
+  font-family: Fnt;
+  src: url(/public/font//PlaywriteNZBasic-VariableFont_wght.ttf);
+}
+@import "tailwindcss"
+
