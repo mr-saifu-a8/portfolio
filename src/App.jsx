@@ -9,7 +9,7 @@ const App = () => {
       <div
         className="
         w-full h-screen
-        bg-[url('public/image/macos-tahoe-26-5120x2880-22674.jpg')]
+        bg-[url('/image/macos-tahoe-26-5120x2880-22674.jpg')]
         bg-cover bg-center bg-no-repeat
         relative
       "
