@@ -2,12 +2,12 @@ import React from "react";
 
 const MenuBar = () => {
   const icons = [
-    { src: "/public/image/finder.png", label: "Portfolio" },
-    { src: "/public/image/safari.png", label: "Resume" },
-    { src: "/public/image/photo.png", label: "Gallery" },
-    { src: "/public/image/contact.png", label: "Contact" },
-    { src: "/public/image/terminal.png", label: "Skills" },
-    { src: "/public/image/trash.png", label: "Archive" },
+    { src: "/image/finder.png", label: "Portfolio" },
+    { src: "/image/safari.png", label: "Resume" },
+    { src: "/image/photo.png", label: "Gallery" },
+    { src: "/image/contact.png", label: "Contact" },
+    { src: "/image/terminal.png", label: "Skills" },
+    { src: "/image/trash.png", label: "Archive" },
   ];
 
   return (
