@@ -1,6 +1,65 @@
-@font-face {
+/* @font-face {
   font-family: Fnt;
   src: url(/public/font//PlaywriteNZBasic-VariableFont_wght.ttf);
 }
-@import "tailwindcss"
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+} */
+
+/* 
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Fnt";
+  src: url("/font/PlaywriteNZBasic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@theme {
+  --font-fnt: "Fnt", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+.font-fnt {
+  font-family: var(--font-fnt);
+} */
+
+
+/* 
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Fnt";
+  src: url("/font/PlaywriteNZBasic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.font-fnt {
+  font-family: "Fnt", sans-serif;
+}  */
+
+
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Fnt";
+  src: url("/font/PlaywriteNZBasic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@theme {
+  --font-fnt: "Fnt", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+.font-fnt {
+  font-family: "Fnt", sans-serif;
+} 
 
